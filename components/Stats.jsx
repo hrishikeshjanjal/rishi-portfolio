@@ -23,13 +23,13 @@ const stats = [
 
 const Stats = () => {
   return (
-    <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
+    <section className="py-10 border-t border-white/10">
       <div className="container mx-auto">
-        <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
+        <div className="flex flex-wrap gap-8 max-w-[90vw] mx-auto xl:max-w-none">
           {stats.map((item, index) => {
             return (
               <div
-                className="flex-1 flex gap-4 items-center justify-center xl:justify-start"
+                className="flex-1 min-w-[220px] flex gap-4 items-center justify-center xl:justify-start"
                 key={index}
               >
                 <CountUp
@@ -40,7 +40,7 @@ const Stats = () => {
                 />
                 <p
                   className={`${
-                    item.text.length < 15 ? "max-w-[100px]" : "max-w-[150px]"
+                    item.text.length < 15 ? "max-w-[140px]" : "max-w-[200px]"
                   } leading-snug text-white/80`}
                 >
                   {item.text}

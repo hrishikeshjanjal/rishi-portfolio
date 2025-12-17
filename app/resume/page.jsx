@@ -51,7 +51,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Hindi",
+      fieldValue: "English, Marathi, Hindi ",
     },
   ],
 };
@@ -78,21 +78,6 @@ const experience = {
       position: "Assistant Systems Engineer",
       duration: "Jan 2021 – Aug 2021",
     },
-    // {
-    //   company: "Tech Academy",
-    //   position: "Teaching Assistant",
-    //   duration: "2019 - 2020",
-    // },
-    // {
-    //   company: "Digital Agency",
-    //   position: "UI/UX Designer",
-    //   duration: "2018 - 2019",
-    // },
-    // {
-    //   company: "Software Development Firm",
-    //   position: "Junior Developer",
-    //   duration: "2017 - 2018",
-    // },
   ],
 };
 
@@ -105,7 +90,7 @@ const education = {
   items: [
     {
       institution: "Stony Brook University",
-      degree: "Master of Science in Computer Engineering (GPA: 3.76/4.0)",
+      degree: "Master of Science in Computer Engineering",
       duration: "Aug 2024 - Dec 2025",
     },
     {
@@ -113,26 +98,6 @@ const education = {
       degree: "Bachelor of Science in Information Technology",
       duration: "Aug 2016 - Oct 2020",
     },
-    // {
-    //   institution: "Online Course",
-    //   degree: "Programming Course",
-    //   duration: "2020 - 2021",
-    // },
-    // {
-    //   institution: "Tech Institute",
-    //   degree: "Certified Web Developer",
-    //   duration: "2019",
-    // },
-    // {
-    //   institution: "Design School",
-    //   degree: "Diploma in Graphic Design",
-    //   duration: "2016 - 2018",
-    // },
-    // {
-    //   institution: "Community College",
-    //   degree: "Associate Degree in Computer Science",
-    //   duration: "2014 - 2016",
-    // },
   ],
 };
 
@@ -267,7 +232,7 @@ const Resume = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+      className="py-10 lg:py-16"
     >
       <div className="container mx-auto mb-10">
         <Tabs
@@ -303,7 +268,6 @@ const Resume = () => {
                             {item.position}
                           </h3>
                           <div className="flex items-center gap-3">
-                            {/* dot */}
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-white/60">{item.company}</p>
                           </div>
@@ -335,7 +299,6 @@ const Resume = () => {
                             {item.degree}
                           </h3>
                           <div className="flex items-center gap-3">
-                            {/* dot */}
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-white/60 text-left">{item.institution}</p>
                           </div>

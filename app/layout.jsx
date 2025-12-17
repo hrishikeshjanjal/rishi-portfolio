@@ -26,6 +26,11 @@ export default function RootLayout({ children }) {
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
+        <footer className="border-t border-white/10 bg-primary py-8 text-center text-white/60 text-sm">
+          <div className="container mx-auto">
+            © 2025 Hrishikesh Janjal. All rights reserved.
+          </div>
+        </footer>
         <Toaster position="top-right" richColors closeButton />
       </body>
     </html>
