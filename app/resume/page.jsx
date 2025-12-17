@@ -296,7 +296,7 @@ const Resume = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-5"
                         >
                           <span className="text-accent">{item.duration}</span>
                           <h3 className="text-xl max-w-[280px] min-h-[60px] text-center lg:text-left">
@@ -328,7 +328,7 @@ const Resume = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-5"
                         >
                           <span className="text-accent">{item.duration}</span>
                           <h3 className="text-xl max-w-[280px] min-h-[60px] text-center lg:text-left">
